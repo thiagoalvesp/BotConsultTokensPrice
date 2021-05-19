@@ -1,0 +1,27 @@
+{
+  "name": "botconsulttokensprice",
+  "version": "1.0.0",
+  "description": "Bot em NodeJs para consultar os preços de alguns token de criptomoedas e enviar o preço para o Slack.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagoalvesp/BotConsultTokensPrice.git"
+  },
+  "keywords": [
+    "node",
+    "rpa"
+  ],
+  "author": "thiago alves pereira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiagoalvesp/BotConsultTokensPrice/issues"
+  },
+  "homepage": "https://github.com/thiagoalvesp/BotConsultTokensPrice#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "puppeteer-core": "^9.1.1"
+  }
+}
